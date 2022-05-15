@@ -1,0 +1,23 @@
+.app__footerOverlay {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.app__footerOverlay-black {
+  height: 25%;
+  background: var(--color-black);
+}
+
+.app__footerOverlay-img {
+  height: 75%;
+}
+.p__opensans--dev {
+  text-transform: inherit !important;
+  font-weight: 900 !important;
+  font-size: 22px !important;
+}
